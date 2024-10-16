@@ -123,7 +123,7 @@ def quic(
     cputime = np.zeros(optSize)
     dGap = np.zeros(optSize)
     iters = np.zeros(iterSize, dtype=np.uint32)
-    pyquic.quic(
+    circe.pyquic.quic(
         quic_mode,
         Sn,
         S,
